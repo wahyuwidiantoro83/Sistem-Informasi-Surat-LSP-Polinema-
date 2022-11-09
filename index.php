@@ -1,7 +1,7 @@
 <?php
   include('koneksi.php');
 
-  $queryjumlah = mysqli_query($koneksi, "SELECT COUNT(judul) FROM arsip WHERE kategori LIKE 'Pengumuman'");
+  $queryjumlah = mysqli_query($koneksi, "SELECT COUNT(judul) FROM arsip");
   $jumlah = mysqli_fetch_assoc($queryjumlah);
 ?>
 
