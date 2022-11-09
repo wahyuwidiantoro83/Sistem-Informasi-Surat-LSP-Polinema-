@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 08, 2022 at 12:15 PM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 7.4.29
+-- Generation Time: Nov 06, 2022 at 04:30 AM
+-- Server version: 10.4.22-MariaDB-log
+-- PHP Version: 8.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,7 +40,10 @@ CREATE TABLE `arsip` (
 --
 
 INSERT INTO `arsip` (`nomor_surat`, `kategori`, `judul`, `waktu_pengarsipan`, `file`) VALUES
-('1245555', 'Nota Dinas', 'Surat', '2022-11-07 21:56:25', 'KHS (1).pdf');
+('2020/PD2/TU/022', 'Undangan', 'Undangan Halal Bi Halal', '2022-11-05 21:46:30', ''),
+('2020/PD3/TU/001', 'Pengumuman', 'Nota Dinas WFH', '2022-11-04 21:45:35', ''),
+('nomor 10', 'Nota Dinas', 'judul 10', '2022-11-05 15:51:02', 'KTP.pdf'),
+('nomor 9', 'Undangan', 'judul 9', '2022-11-05 12:35:17', 'Ijazah.pdf');
 
 --
 -- Indexes for dumped tables
